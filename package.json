@@ -1,0 +1,9 @@
+{
+  "name": "sketch2html",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^3.0.0"
+  }
+}
