@@ -1,10 +1,27 @@
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url("../fonts/Proxima Nova/proxima nova.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/Proxima Nova/Proxima Nova Light.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url("../fonts/Proxima Nova/Proxima Nova Semibold.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("../fonts/Proxima Nova/Proxima Nova Bold.otf") format("opentype"); }
+
 .btn-green {
   background-color: #38D299;
   color: white;
   text-transform: uppercase;
   padding: 17px 60px;
   letter-spacing: 1.5px;
-  font-size: 12px; }
+  font-size: 11px;
+  font-family: "Proxima Nova Bold"; }
 
 .btn-close {
   font-size: 25px;
@@ -18,7 +35,8 @@
   text-transform: uppercase;
   color: #777;
   letter-spacing: 1.6px;
-  font-size: 12px;
+  font-size: 11px;
+  font-family: "Proxima Nova Bold";
   border-radius: 0; }
 
 .icon {
@@ -45,7 +63,8 @@ header .navbar-header {
 
 header .navbar-nav li a {
   padding: 31px 15px;
-  font-size: 12px; }
+  font-size: 12px;
+  font-family: "Proxima Nova Regular"; }
 
 header .navbar-nav .bitmap a {
   padding: 25px 15px 24px; }
@@ -90,7 +109,8 @@ header .header-banner {
       max-width: 913px;
       margin: 30px auto 0;
       line-height: 1.3;
-      letter-spacing: 0.5px; }
+      letter-spacing: 0.5px;
+      font-family: "Proxima Nova Light"; }
 
 @media (max-width: 480px) {
   header .navbar-header .navbar-brand .logo {
@@ -124,7 +144,8 @@ header .header-banner {
     box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.16); }
     .section-aboutus .block-wrapper .section-heading {
       font-size: 17px;
-      margin: 0; }
+      margin: 0;
+      font-family: "Proxima Nova Semibold"; }
     .section-aboutus .block-wrapper .section-heading_line {
       width: 32px;
       border: 1px solid #6170FF;
@@ -135,7 +156,8 @@ header .header-banner {
       max-width: 728px;
       margin: 10px auto;
       line-height: 1.3;
-      letter-spacing: 0.5px; }
+      letter-spacing: 0.1px;
+      font-family: "Proxima Nova Light"; }
     .section-aboutus .block-wrapper .img-wrapper {
       margin: 60px 0; }
       .section-aboutus .block-wrapper .img-wrapper .block {
@@ -154,12 +176,14 @@ header .header-banner {
           max-width: 152px;
           letter-spacing: 0.5px;
           line-height: 1.3;
-          margin: 10px auto; }
+          margin: 10px auto;
+          font-family: "Proxima Nova Semibold"; }
     .section-aboutus .block-wrapper .section-content_txt {
       max-width: 690px;
       margin: 30px auto;
       font-size: 16px;
-      letter-spacing: 0.5px; }
+      letter-spacing: 0.1px;
+      font-family: "Proxima Nova Regular"; }
     .section-aboutus .block-wrapper .btn-wrapper {
       margin: 70px auto; }
     .section-aboutus .block-wrapper .social-wrapper {
@@ -241,7 +265,10 @@ header .header-banner {
           color: #FFF;
           font-size: 16px;
           margin: 0;
-          letter-spacing: 0.6px; }
+          letter-spacing: 0.6px;
+          font-family: "Proxima Nova Light"; }
+          .section-ux .wrapper .block .hover-mask .hover-txt strong {
+            font-family: "Proxima Nova Bold"; }
       .section-ux .wrapper .block:hover .hover-mask, .section-ux .wrapper .block:focus .hover-mask, .section-ux .wrapper .block:active .hover-mask {
         display: block; }
     .section-ux .wrapper .detail-wrapper {
@@ -251,7 +278,10 @@ header .header-banner {
         margin: 10px auto; }
         .section-ux .wrapper .detail-wrapper .detail-block .detail-heading {
           float: left;
-          font-size: 28px; }
+          font-size: 28px;
+          font-family: "Proxima Nova Light"; }
+          .section-ux .wrapper .detail-wrapper .detail-block .detail-heading strong {
+            font-family: "Proxima Nova Semibold"; }
         .section-ux .wrapper .detail-wrapper .detail-block .icon {
           float: right; }
         .section-ux .wrapper .detail-wrapper .detail-block hr {
@@ -285,7 +315,10 @@ header .header-banner {
   .section-bottom .wrapper .bottom-heading {
     font-size: 28px;
     display: inline;
-    vertical-align: middle; }
+    vertical-align: middle;
+    font-family: "Proxima Nova Light"; }
+    .section-bottom .wrapper .bottom-heading strong {
+      font-family: "Proxima Nova Semibold"; }
   .section-bottom .wrapper a {
     margin-left: 20px; }
 
@@ -294,9 +327,6 @@ header .header-banner {
     margin: 30px 0 0;
     padding: 80px 50px; }
     .section-bottom .wrapper .bottom-heading {
-      font-size: 28px;
-      display: inline;
-      vertical-align: middle;
       line-height: 1.2; }
       .section-bottom .wrapper .bottom-heading strong {
         display: block; }
@@ -313,10 +343,12 @@ footer {
       padding-left: 0; }
       footer .footer-top .footer-left .footer-menu h3 {
         font-size: 16px;
-        color: #6170FF; }
+        color: #6170FF;
+        font-family: "Proxima Nova Bold"; }
       footer .footer-top .footer-left .footer-menu a {
         font-size: 12px;
-        color: #a7a9ac; }
+        color: #a7a9ac;
+        font-family: "Proxima Nova Regular"; }
       footer .footer-top .footer-left .footer-menu .social-wrapper {
         list-style: none;
         display: inline-flex;
@@ -333,7 +365,8 @@ footer {
       float: right; }
   footer .footer-bottom p, footer .footer-bottom a {
     font-size: 12px;
-    color: #a7a9ac; }
+    color: #a7a9ac;
+    font-family: "Proxima Nova Regular"; }
   @media (max-width: 480px) {
     footer .footer-bottom {
       margin: 10px auto; }

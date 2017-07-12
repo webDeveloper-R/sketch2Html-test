@@ -1,3 +1,21 @@
+// fonts
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('../fonts/Proxima Nova/proxima nova.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url('../fonts/Proxima Nova/Proxima Nova Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url('../fonts/Proxima Nova/Proxima Nova Semibold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('../fonts/Proxima Nova/Proxima Nova Bold.otf') format('opentype');
+}
+
 // variable
 $main-color: #777;
 $main-color-hover: #333;
@@ -15,7 +33,8 @@ $footer-color: #a7a9ac;
   text-transform: uppercase;
   padding: 17px 60px;
   letter-spacing: 1.5px;
-  font-size: 12px;
+  font-size: 11px;
+  font-family: "Proxima Nova Bold";
 }
 
 .btn-close {
@@ -31,7 +50,8 @@ $footer-color: #a7a9ac;
   text-transform: uppercase;
   color: $main-color;
   letter-spacing: 1.6px;
-  font-size: 12px;
+  font-size: 11px;
+  font-family: "Proxima Nova Bold";
   border-radius: 0;
 }
 
@@ -75,6 +95,7 @@ header {
       a {
         padding: 31px 15px;
         font-size: 12px;
+        font-family: "Proxima Nova Regular";
       }
     }
 
@@ -142,6 +163,7 @@ header {
         margin: 30px auto 0;
         line-height: 1.3;
         letter-spacing: 0.5px;
+        font-family: "Proxima Nova Light";
       }
     }
   }
@@ -202,6 +224,7 @@ header {
     .section-heading {
       font-size: 17px;
       margin: 0;
+      font-family: "Proxima Nova Semibold";
     }
 
     .section-heading_line {
@@ -216,7 +239,8 @@ header {
       max-width: 728px;
       margin: 10px auto;
       line-height: 1.3;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.1px;
+      font-family: "Proxima Nova Light";
     }
 
     .img-wrapper {
@@ -244,6 +268,7 @@ header {
           letter-spacing: 0.5px;
           line-height: 1.3;
           margin: 10px auto;
+          font-family: "Proxima Nova Semibold";
         }
       }
     }
@@ -252,7 +277,8 @@ header {
       max-width: 690px;
       margin: 30px auto;
       font-size: 16px;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.1px;
+      font-family: "Proxima Nova Regular";
     }
 
     .btn-wrapper {
@@ -379,6 +405,11 @@ header {
           font-size: 16px;
           margin: 0;
           letter-spacing: 0.6px;
+          font-family: "Proxima Nova Light";
+
+          strong {
+            font-family: "Proxima Nova Bold";
+          }
         }
       }
 
@@ -401,6 +432,11 @@ header {
         .detail-heading {
           float: left;
           font-size: 28px;
+          font-family: "Proxima Nova Light";
+
+          strong {
+            font-family: "Proxima Nova Semibold";
+          }
         }
 
         .icon {
@@ -463,6 +499,11 @@ header {
       font-size: 28px;
       display: inline;
       vertical-align: middle;
+      font-family: "Proxima Nova Light";
+
+      strong {
+        font-family: "Proxima Nova Semibold";
+      }
     }
 
     a {
@@ -476,9 +517,6 @@ header {
       padding: 80px 50px;
 
       .bottom-heading {
-        font-size: 28px;
-        display: inline;
-        vertical-align: middle;
         line-height: 1.2;
 
         strong {
@@ -508,11 +546,13 @@ footer {
         h3 {
           font-size: 16px;
           color: $banner-bgcolor;
+          font-family: "Proxima Nova Bold";
         }
 
         a {
           font-size: 12px;
           color: $footer-color;
+          font-family: "Proxima Nova Regular";
         }
 
         .social-wrapper {
@@ -551,6 +591,7 @@ footer {
     p, a {
       font-size: 12px;
       color: $footer-color;
+      font-family: "Proxima Nova Regular";
     }
   }
 
